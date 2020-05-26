@@ -1,0 +1,28 @@
+{
+  "name": "@saplaneguy/enigma-merge-menu",
+  "version": "1.0.0",
+  "description": "merges hjson to create a unified menu foe enigma1/2 bbs",
+  "main": "index.js",
+  "scripts": {},
+  "bin": {
+    "@saplaneguy/enigma-merge-menu": "index.js",
+    "enigma-merge-menu": "index.js"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "cli",
+    "enigma-merge-menu",
+    "enigma1/2",
+    "enigma bbs"
+  ],
+  "author": "Del Turner",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^5.1.0",
+    "copyfiles": "^2.2.0",
+    "fs-extra": "^9.0.0",
+    "hjson": "^3.2.1"
+  }
+}
