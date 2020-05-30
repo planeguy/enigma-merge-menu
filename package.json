@@ -1,12 +1,12 @@
 {
   "name": "@saplaneguy/enigma-merge-menu",
-  "version": "1.0.0",
-  "description": "merges hjson to create a unified menu foe enigma1/2 bbs",
-  "main": "index.js",
+  "version": "1.0.1",
+  "description": "merges hjson to create a menu for enigma1/2 bbs",
+  "main": "enigma-merge-menu.js",
   "scripts": {},
   "bin": {
-    "@saplaneguy/enigma-merge-menu": "index.js",
-    "enigma-merge-menu": "index.js"
+    "@saplaneguy/enigma-merge-menu": "enigma-merge-menu.js",
+    "enigma-merge-menu": "enigma-merge-menu.js"
   },
   "publishConfig": {
     "access": "public"
@@ -26,3 +26,4 @@
     "hjson": "^3.2.1"
   }
 }
+

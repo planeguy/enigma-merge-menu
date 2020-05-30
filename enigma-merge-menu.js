@@ -18,13 +18,13 @@ async function mergemenu(mainmenufile,includeDir, targetDir){
 const program = new Command();
 program
 .option('-m, --menu <menu>', 'menu file')
-.option('-i, --includeDir <includeDir>','include folders')
-.option('-t, --targetDir <targetDir>', 'target menu dir');
+.option('-i, --includeDir <includeDir>','diretory of fragments to include')
+.option('-t, --targetDir <targetDir>', 'target directory of output menu');
 
 program.parse(process.argv);
 
 if(program.menu==undefined || program.includeDir==undefined || program.targetDir==undefined){
-    console.log('you need settings. bub!');
+    console.log('you need all the settings. bub!');
 } else {
     //do a menu merge
     console.log(program.menu,program.includeDir,program.targetDir);
