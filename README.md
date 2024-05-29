@@ -1,6 +1,9 @@
 # enigma-merge-menu
 ## A little tool for merging hjson into an enigma1/2 bbs menu
 
+## ENIGMA1/2 now supports menu fragements and imports... you don't need my project anymore! :)
+See how that works here: https://nuskooler.github.io/enigma-bbs/configuration/config-files.html
+
 ## install
 
 ``` npm install @saplaneguy/enigma-merge-menu ```
